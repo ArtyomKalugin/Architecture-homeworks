@@ -25,13 +25,6 @@
 			remoteGlobalIDString = 92980E342D43F50A001FDFAD;
 			remoteInfo = "Architecture Homeworks";
 		};
-		92980E562D43F50B001FDFAD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92980E2D2D43F50A001FDFAD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92980E342D43F50A001FDFAD;
-			remoteInfo = "Architecture Homeworks";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +39,6 @@
 		923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolverTests.swift; sourceTree = "<group>"; };
 		92980E352D43F50A001FDFAD /* Architecture Homeworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture Homeworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92980E4B2D43F50B001FDFAD /* Architecture HomeworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture HomeworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92980E552D43F50B001FDFAD /* Architecture HomeworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture HomeworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +50,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		92980E482D43F50B001FDFAD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92980E522D43F50B001FDFAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,7 +112,6 @@
 			children = (
 				92980E352D43F50A001FDFAD /* Architecture Homeworks.app */,
 				92980E4B2D43F50B001FDFAD /* Architecture HomeworksTests.xctest */,
-				92980E552D43F50B001FDFAD /* Architecture HomeworksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,26 +158,6 @@
 			productReference = 92980E4B2D43F50B001FDFAD /* Architecture HomeworksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		92980E542D43F50B001FDFAD /* Architecture HomeworksUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92980E662D43F50B001FDFAD /* Build configuration list for PBXNativeTarget "Architecture HomeworksUITests" */;
-			buildPhases = (
-				92980E512D43F50B001FDFAD /* Sources */,
-				92980E522D43F50B001FDFAD /* Frameworks */,
-				92980E532D43F50B001FDFAD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92980E572D43F50B001FDFAD /* PBXTargetDependency */,
-			);
-			name = "Architecture HomeworksUITests";
-			packageProductDependencies = (
-			);
-			productName = "Architecture HomeworksUITests";
-			productReference = 92980E552D43F50B001FDFAD /* Architecture HomeworksUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,10 +172,6 @@
 						CreatedOnToolsVersion = 16.1;
 					};
 					92980E4A2D43F50B001FDFAD = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 92980E342D43F50A001FDFAD;
-					};
-					92980E542D43F50B001FDFAD = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 92980E342D43F50A001FDFAD;
 					};
@@ -233,7 +193,6 @@
 			targets = (
 				92980E342D43F50A001FDFAD /* Architecture Homeworks */,
 				92980E4A2D43F50B001FDFAD /* Architecture HomeworksTests */,
-				92980E542D43F50B001FDFAD /* Architecture HomeworksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,13 +209,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		92980E492D43F50B001FDFAD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92980E532D43F50B001FDFAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,13 +237,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92980E512D43F50B001FDFAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,11 +244,6 @@
 			isa = PBXTargetDependency;
 			target = 92980E342D43F50A001FDFAD /* Architecture Homeworks */;
 			targetProxy = 92980E4C2D43F50B001FDFAD /* PBXContainerItemProxy */;
-		};
-		92980E572D43F50B001FDFAD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92980E342D43F50A001FDFAD /* Architecture Homeworks */;
-			targetProxy = 92980E562D43F50B001FDFAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -540,40 +480,6 @@
 			};
 			name = Release;
 		};
-		92980E672D43F50B001FDFAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 258576KTZ4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app.homeworks.Architecture-HomeworksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Architecture Homeworks";
-			};
-			name = Debug;
-		};
-		92980E682D43F50B001FDFAD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 258576KTZ4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.app.homeworks.Architecture-HomeworksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Architecture Homeworks";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,15 +506,6 @@
 			buildConfigurations = (
 				92980E642D43F50B001FDFAD /* Debug */,
 				92980E652D43F50B001FDFAD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92980E662D43F50B001FDFAD /* Build configuration list for PBXNativeTarget "Architecture HomeworksUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92980E672D43F50B001FDFAD /* Debug */,
-				92980E682D43F50B001FDFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
