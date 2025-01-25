@@ -191,7 +191,6 @@
 					};
 					92980E4A2D43F50B001FDFAD = {
 						CreatedOnToolsVersion = 16.1;
-						LastSwiftMigration = 1610;
 						TestTargetID = 92980E342D43F50A001FDFAD;
 					};
 					92980E542D43F50B001FDFAD = {
@@ -462,7 +461,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 258576KTZ4;
@@ -472,7 +470,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.app.homeworks.Architecture-HomeworksTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architecture Homeworks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Architecture Homeworks";
@@ -483,7 +480,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 258576KTZ4;
