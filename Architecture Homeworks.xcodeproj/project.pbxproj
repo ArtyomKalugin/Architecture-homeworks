@@ -13,8 +13,6 @@
 		923E5B682D451EC4001E429A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B5A2D451EC4001E429A /* AppDelegate.swift */; };
 		923E5B692D451EC4001E429A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B5F2D451EC4001E429A /* SceneDelegate.swift */; };
 		923E5B6A2D451EC4001E429A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B602D451EC4001E429A /* ViewController.swift */; };
-		923E5B702D451EC4001E429A /* Architecture_HomeworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B6E2D451EC4001E429A /* Architecture_HomeworksUITests.swift */; };
-		923E5B712D451EC4001E429A /* Architecture_HomeworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B6F2D451EC4001E429A /* Architecture_HomeworksUITestsLaunchTests.swift */; };
 		923E5B772D451FC8001E429A /* QuadraticEquationSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B752D451FC8001E429A /* QuadraticEquationSolver.swift */; };
 		923E5B7C2D452002001E429A /* QuadraticEquationSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */; };
 /* End PBXBuildFile section */
@@ -44,8 +42,6 @@
 		923E5B602D451EC4001E429A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		923E5B612D451EC4001E429A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		923E5B622D451EC4001E429A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		923E5B6E2D451EC4001E429A /* Architecture_HomeworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_HomeworksUITests.swift; sourceTree = "<group>"; };
-		923E5B6F2D451EC4001E429A /* Architecture_HomeworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture_HomeworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		923E5B752D451FC8001E429A /* QuadraticEquationSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolver.swift; sourceTree = "<group>"; };
 		923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolverTests.swift; sourceTree = "<group>"; };
 		92980E352D43F50A001FDFAD /* Architecture Homeworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture Homeworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,21 +113,11 @@
 			path = HW1;
 			sourceTree = "<group>";
 		};
-		923E5B7E2D45202D001E429A /* Architecture HomeworksUITests */ = {
-			isa = PBXGroup;
-			children = (
-				923E5B6E2D451EC4001E429A /* Architecture_HomeworksUITests.swift */,
-				923E5B6F2D451EC4001E429A /* Architecture_HomeworksUITestsLaunchTests.swift */,
-			);
-			path = "Architecture HomeworksUITests";
-			sourceTree = "<group>";
-		};
 		92980E2C2D43F50A001FDFAD = {
 			isa = PBXGroup;
 			children = (
 				923E5B742D451FAF001E429A /* Architecture Homeworks */,
 				923E5B792D451FFA001E429A /* Architecture HomeworksTests */,
-				923E5B7E2D45202D001E429A /* Architecture HomeworksUITests */,
 				92980E362D43F50A001FDFAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -303,8 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				923E5B702D451EC4001E429A /* Architecture_HomeworksUITests.swift in Sources */,
-				923E5B712D451EC4001E429A /* Architecture_HomeworksUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
