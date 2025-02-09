@@ -15,6 +15,12 @@
 		923E5B6A2D451EC4001E429A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B602D451EC4001E429A /* ViewController.swift */; };
 		923E5B772D451FC8001E429A /* QuadraticEquationSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B752D451FC8001E429A /* QuadraticEquationSolver.swift */; };
 		923E5B7C2D452002001E429A /* QuadraticEquationSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */; };
+		927216472D5903520023C216 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927216462D59034D0023C216 /* Move.swift */; };
+		927216492D5916C10023C216 /* MovingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927216482D5916BE0023C216 /* MovingObject.swift */; };
+		9272164C2D5917740023C216 /* Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272164B2D5917720023C216 /* Rotate.swift */; };
+		9272164E2D59182F0023C216 /* RotatableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272164D2D59182C0023C216 /* RotatableObject.swift */; };
+		927216502D591A0A0023C216 /* MoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272164F2D591A070023C216 /* MoveTests.swift */; };
+		927216522D591B7C0023C216 /* MovingObjectMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927216512D591B6F0023C216 /* MovingObjectMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,12 @@
 		923E5B622D451EC4001E429A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		923E5B752D451FC8001E429A /* QuadraticEquationSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolver.swift; sourceTree = "<group>"; };
 		923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolverTests.swift; sourceTree = "<group>"; };
+		927216462D59034D0023C216 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		927216482D5916BE0023C216 /* MovingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingObject.swift; sourceTree = "<group>"; };
+		9272164B2D5917720023C216 /* Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotate.swift; sourceTree = "<group>"; };
+		9272164D2D59182C0023C216 /* RotatableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableObject.swift; sourceTree = "<group>"; };
+		9272164F2D591A070023C216 /* MoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTests.swift; sourceTree = "<group>"; };
+		927216512D591B6F0023C216 /* MovingObjectMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingObjectMock.swift; sourceTree = "<group>"; };
 		92980E352D43F50A001FDFAD /* Architecture Homeworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture Homeworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92980E4B2D43F50B001FDFAD /* Architecture HomeworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture HomeworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -62,6 +74,7 @@
 		923E5B742D451FAF001E429A /* Architecture Homeworks */ = {
 			isa = PBXGroup;
 			children = (
+				927216442D58F97D0023C216 /* HW2 */,
 				923E5B782D451FE3001E429A /* HW1 */,
 				923E5B5A2D451EC4001E429A /* AppDelegate.swift */,
 				923E5B5B2D451EC4001E429A /* Assets.xcassets */,
@@ -85,6 +98,7 @@
 		923E5B792D451FFA001E429A /* Architecture HomeworksTests */ = {
 			isa = PBXGroup;
 			children = (
+				927216452D58F9860023C216 /* HW2 */,
 				923E5B7D2D452011001E429A /* HW1 */,
 			);
 			path = "Architecture HomeworksTests";
@@ -96,6 +110,26 @@
 				923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */,
 			);
 			path = HW1;
+			sourceTree = "<group>";
+		};
+		927216442D58F97D0023C216 /* HW2 */ = {
+			isa = PBXGroup;
+			children = (
+				9272164D2D59182C0023C216 /* RotatableObject.swift */,
+				927216482D5916BE0023C216 /* MovingObject.swift */,
+				9272164B2D5917720023C216 /* Rotate.swift */,
+				927216462D59034D0023C216 /* Move.swift */,
+			);
+			path = HW2;
+			sourceTree = "<group>";
+		};
+		927216452D58F9860023C216 /* HW2 */ = {
+			isa = PBXGroup;
+			children = (
+				927216512D591B6F0023C216 /* MovingObjectMock.swift */,
+				9272164F2D591A070023C216 /* MoveTests.swift */,
+			);
+			path = HW2;
 			sourceTree = "<group>";
 		};
 		92980E2C2D43F50A001FDFAD = {
@@ -222,8 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927216492D5916C10023C216 /* MovingObject.swift in Sources */,
+				9272164C2D5917740023C216 /* Rotate.swift in Sources */,
+				927216472D5903520023C216 /* Move.swift in Sources */,
 				923E5B772D451FC8001E429A /* QuadraticEquationSolver.swift in Sources */,
 				923E5B682D451EC4001E429A /* AppDelegate.swift in Sources */,
+				9272164E2D59182F0023C216 /* RotatableObject.swift in Sources */,
 				923E5B692D451EC4001E429A /* SceneDelegate.swift in Sources */,
 				923E5B6A2D451EC4001E429A /* ViewController.swift in Sources */,
 			);
@@ -233,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927216522D591B7C0023C216 /* MovingObjectMock.swift in Sources */,
+				927216502D591A0A0023C216 /* MoveTests.swift in Sources */,
 				923E5B7C2D452002001E429A /* QuadraticEquationSolverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
