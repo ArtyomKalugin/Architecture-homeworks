@@ -21,6 +21,19 @@
 		9272164E2D59182F0023C216 /* RotatableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272164D2D59182C0023C216 /* RotatableObject.swift */; };
 		927216502D591A0A0023C216 /* MoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272164F2D591A070023C216 /* MoveTests.swift */; };
 		927216522D591B7C0023C216 /* MovingObjectMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927216512D591B6F0023C216 /* MovingObjectMock.swift */; };
+		927D27292D66288400D0C4BC /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D27282D66286B00D0C4BC /* Loop.swift */; };
+		927D272B2D66291800D0C4BC /* CommandProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D272A2D66290D00D0C4BC /* CommandProtocol.swift */; };
+		927D272F2D662B6900D0C4BC /* ExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D272E2D662B6500D0C4BC /* ExceptionHandler.swift */; };
+		927D27322D6632B800D0C4BC /* WriteToLogCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D27312D6632B300D0C4BC /* WriteToLogCommand.swift */; };
+		927D27342D6650F000D0C4BC /* ExceptionRegisterer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D27332D6650EB00D0C4BC /* ExceptionRegisterer.swift */; };
+		927D27362D66523100D0C4BC /* AddToQueueCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D27352D66522900D0C4BC /* AddToQueueCommand.swift */; };
+		927D27382D6654CC00D0C4BC /* CommandsQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D27372D6654C500D0C4BC /* CommandsQueue.swift */; };
+		927D273A2D66588E00D0C4BC /* RepeatOnceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D27392D66588400D0C4BC /* RepeatOnceCommand.swift */; };
+		928D47882D68D1930024052E /* ErrorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D47872D68D18F0024052E /* ErrorCommand.swift */; };
+		92AF70D72D69D8B6006A3547 /* RepeatTwiceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF70D62D69D8AB006A3547 /* RepeatTwiceCommand.swift */; };
+		92AF70D92D69D9B1006A3547 /* CommandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF70D82D69D9AD006A3547 /* CommandsTests.swift */; };
+		92AF70DB2D69DA4B006A3547 /* EmptyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF70DA2D69DA41006A3547 /* EmptyCommand.swift */; };
+		92AF70DE2D69DB4A006A3547 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF70DD2D69DB49006A3547 /* Log.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +62,21 @@
 		9272164D2D59182C0023C216 /* RotatableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableObject.swift; sourceTree = "<group>"; };
 		9272164F2D591A070023C216 /* MoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTests.swift; sourceTree = "<group>"; };
 		927216512D591B6F0023C216 /* MovingObjectMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingObjectMock.swift; sourceTree = "<group>"; };
+		927D27282D66286B00D0C4BC /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		927D272A2D66290D00D0C4BC /* CommandProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandProtocol.swift; sourceTree = "<group>"; };
+		927D272E2D662B6500D0C4BC /* ExceptionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptionHandler.swift; sourceTree = "<group>"; };
+		927D27312D6632B300D0C4BC /* WriteToLogCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteToLogCommand.swift; sourceTree = "<group>"; };
+		927D27332D6650EB00D0C4BC /* ExceptionRegisterer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptionRegisterer.swift; sourceTree = "<group>"; };
+		927D27352D66522900D0C4BC /* AddToQueueCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToQueueCommand.swift; sourceTree = "<group>"; };
+		927D27372D6654C500D0C4BC /* CommandsQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandsQueue.swift; sourceTree = "<group>"; };
+		927D27392D66588400D0C4BC /* RepeatOnceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatOnceCommand.swift; sourceTree = "<group>"; };
+		928D47872D68D18F0024052E /* ErrorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCommand.swift; sourceTree = "<group>"; };
 		92980E352D43F50A001FDFAD /* Architecture Homeworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Architecture Homeworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92980E4B2D43F50B001FDFAD /* Architecture HomeworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Architecture HomeworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AF70D62D69D8AB006A3547 /* RepeatTwiceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTwiceCommand.swift; sourceTree = "<group>"; };
+		92AF70D82D69D9AD006A3547 /* CommandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandsTests.swift; sourceTree = "<group>"; };
+		92AF70DA2D69DA41006A3547 /* EmptyCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCommand.swift; sourceTree = "<group>"; };
+		92AF70DD2D69DB49006A3547 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,7 @@
 		923E5B742D451FAF001E429A /* Architecture Homeworks */ = {
 			isa = PBXGroup;
 			children = (
+				927D27262D66272700D0C4BC /* HW3 */,
 				927216442D58F97D0023C216 /* HW2 */,
 				923E5B782D451FE3001E429A /* HW1 */,
 				923E5B5A2D451EC4001E429A /* AppDelegate.swift */,
@@ -98,6 +125,7 @@
 		923E5B792D451FFA001E429A /* Architecture HomeworksTests */ = {
 			isa = PBXGroup;
 			children = (
+				927D27272D66273300D0C4BC /* HW3 */,
 				927216452D58F9860023C216 /* HW2 */,
 				923E5B7D2D452011001E429A /* HW1 */,
 			);
@@ -130,6 +158,41 @@
 				9272164F2D591A070023C216 /* MoveTests.swift */,
 			);
 			path = HW2;
+			sourceTree = "<group>";
+		};
+		927D27262D66272700D0C4BC /* HW3 */ = {
+			isa = PBXGroup;
+			children = (
+				927D27302D6632AF00D0C4BC /* Commands */,
+				92AF70DD2D69DB49006A3547 /* Log.swift */,
+				927D27372D6654C500D0C4BC /* CommandsQueue.swift */,
+				927D27332D6650EB00D0C4BC /* ExceptionRegisterer.swift */,
+				927D272E2D662B6500D0C4BC /* ExceptionHandler.swift */,
+				927D272A2D66290D00D0C4BC /* CommandProtocol.swift */,
+				927D27282D66286B00D0C4BC /* Loop.swift */,
+			);
+			path = HW3;
+			sourceTree = "<group>";
+		};
+		927D27272D66273300D0C4BC /* HW3 */ = {
+			isa = PBXGroup;
+			children = (
+				92AF70D82D69D9AD006A3547 /* CommandsTests.swift */,
+			);
+			path = HW3;
+			sourceTree = "<group>";
+		};
+		927D27302D6632AF00D0C4BC /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				92AF70DA2D69DA41006A3547 /* EmptyCommand.swift */,
+				92AF70D62D69D8AB006A3547 /* RepeatTwiceCommand.swift */,
+				928D47872D68D18F0024052E /* ErrorCommand.swift */,
+				927D27392D66588400D0C4BC /* RepeatOnceCommand.swift */,
+				927D27352D66522900D0C4BC /* AddToQueueCommand.swift */,
+				927D27312D6632B300D0C4BC /* WriteToLogCommand.swift */,
+			);
+			path = Commands;
 			sourceTree = "<group>";
 		};
 		92980E2C2D43F50A001FDFAD = {
@@ -257,13 +320,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				927216492D5916C10023C216 /* MovingObject.swift in Sources */,
+				92AF70D72D69D8B6006A3547 /* RepeatTwiceCommand.swift in Sources */,
+				92AF70DE2D69DB4A006A3547 /* Log.swift in Sources */,
+				927D27322D6632B800D0C4BC /* WriteToLogCommand.swift in Sources */,
+				927D272F2D662B6900D0C4BC /* ExceptionHandler.swift in Sources */,
 				9272164C2D5917740023C216 /* Rotate.swift in Sources */,
 				927216472D5903520023C216 /* Move.swift in Sources */,
 				923E5B772D451FC8001E429A /* QuadraticEquationSolver.swift in Sources */,
+				927D27362D66523100D0C4BC /* AddToQueueCommand.swift in Sources */,
 				923E5B682D451EC4001E429A /* AppDelegate.swift in Sources */,
+				927D272B2D66291800D0C4BC /* CommandProtocol.swift in Sources */,
+				928D47882D68D1930024052E /* ErrorCommand.swift in Sources */,
 				9272164E2D59182F0023C216 /* RotatableObject.swift in Sources */,
+				927D27292D66288400D0C4BC /* Loop.swift in Sources */,
+				92AF70DB2D69DA4B006A3547 /* EmptyCommand.swift in Sources */,
 				923E5B692D451EC4001E429A /* SceneDelegate.swift in Sources */,
+				927D27382D6654CC00D0C4BC /* CommandsQueue.swift in Sources */,
 				923E5B6A2D451EC4001E429A /* ViewController.swift in Sources */,
+				927D273A2D66588E00D0C4BC /* RepeatOnceCommand.swift in Sources */,
+				927D27342D6650F000D0C4BC /* ExceptionRegisterer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +349,7 @@
 				927216522D591B7C0023C216 /* MovingObjectMock.swift in Sources */,
 				927216502D591A0A0023C216 /* MoveTests.swift in Sources */,
 				923E5B7C2D452002001E429A /* QuadraticEquationSolverTests.swift in Sources */,
+				92AF70D92D69D9B1006A3547 /* CommandsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
