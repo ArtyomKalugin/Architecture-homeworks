@@ -9,7 +9,5 @@ import Foundation
 
 protocol CommandProtocol: AnyObject {
     
-    init(command: CommandProtocol?, error: Error?)
-    
     func execute() throws
 }
