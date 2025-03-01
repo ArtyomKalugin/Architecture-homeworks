@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9200A2F92D6E357B0014DD90 /* MacroCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A2F82D6E35760014DD90 /* MacroCommand.swift */; };
+		9200A2FB2D6E3BA30014DD90 /* FuelableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A2FA2D6E3B980014DD90 /* FuelableObject.swift */; };
+		9200A2FE2D6E3C180014DD90 /* CheckFuelCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A2FD2D6E3C160014DD90 /* CheckFuelCommand.swift */; };
+		9200A3002D6E3EA60014DD90 /* BurnFuelCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A2FF2D6E3E9F0014DD90 /* BurnFuelCommand.swift */; };
+		9200A3022D6E3F140014DD90 /* MoveCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A3012D6E3F100014DD90 /* MoveCommand.swift */; };
+		9200A3062D6E3F840014DD90 /* ChangeVelocityCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A3052D6E3F840014DD90 /* ChangeVelocityCommand.swift */; };
+		9200A3082D6E40A00014DD90 /* CommandError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A3072D6E409C0014DD90 /* CommandError.swift */; };
+		9200A30A2D6E41920014DD90 /* MacroCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A3092D6E418B0014DD90 /* MacroCommands.swift */; };
+		9200A30C2D6E42610014DD90 /* UniversalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A30B2D6E425C0014DD90 /* UniversalObject.swift */; };
+		9200A30E2D6E4D680014DD90 /* MacroCommandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A30D2D6E4D550014DD90 /* MacroCommandsTests.swift */; };
 		923E5B632D451EC4001E429A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923E5B5B2D451EC4001E429A /* Assets.xcassets */; };
 		923E5B652D451EC4001E429A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923E5B5D2D451EC4001E429A /* LaunchScreen.storyboard */; };
 		923E5B662D451EC4001E429A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923E5B5E2D451EC4001E429A /* Main.storyboard */; };
@@ -47,6 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9200A2F82D6E35760014DD90 /* MacroCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroCommand.swift; sourceTree = "<group>"; };
+		9200A2FA2D6E3B980014DD90 /* FuelableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelableObject.swift; sourceTree = "<group>"; };
+		9200A2FD2D6E3C160014DD90 /* CheckFuelCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFuelCommand.swift; sourceTree = "<group>"; };
+		9200A2FF2D6E3E9F0014DD90 /* BurnFuelCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnFuelCommand.swift; sourceTree = "<group>"; };
+		9200A3012D6E3F100014DD90 /* MoveCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCommand.swift; sourceTree = "<group>"; };
+		9200A3052D6E3F840014DD90 /* ChangeVelocityCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeVelocityCommand.swift; sourceTree = "<group>"; };
+		9200A3072D6E409C0014DD90 /* CommandError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandError.swift; sourceTree = "<group>"; };
+		9200A3092D6E418B0014DD90 /* MacroCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroCommands.swift; sourceTree = "<group>"; };
+		9200A30B2D6E425C0014DD90 /* UniversalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalObject.swift; sourceTree = "<group>"; };
+		9200A30D2D6E4D550014DD90 /* MacroCommandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroCommandsTests.swift; sourceTree = "<group>"; };
 		923E5B5A2D451EC4001E429A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923E5B5B2D451EC4001E429A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923E5B5C2D451EC4001E429A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,9 +117,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9200A2F62D6E2A460014DD90 /* HW4 */ = {
+			isa = PBXGroup;
+			children = (
+				9200A2FC2D6E3BE60014DD90 /* Commands */,
+				9200A30B2D6E425C0014DD90 /* UniversalObject.swift */,
+				9200A3072D6E409C0014DD90 /* CommandError.swift */,
+				9200A2FA2D6E3B980014DD90 /* FuelableObject.swift */,
+				9200A2F82D6E35760014DD90 /* MacroCommand.swift */,
+				9200A3092D6E418B0014DD90 /* MacroCommands.swift */,
+			);
+			path = HW4;
+			sourceTree = "<group>";
+		};
+		9200A2F72D6E2A4F0014DD90 /* HW4 */ = {
+			isa = PBXGroup;
+			children = (
+				9200A30D2D6E4D550014DD90 /* MacroCommandsTests.swift */,
+			);
+			path = HW4;
+			sourceTree = "<group>";
+		};
+		9200A2FC2D6E3BE60014DD90 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				9200A3052D6E3F840014DD90 /* ChangeVelocityCommand.swift */,
+				9200A3012D6E3F100014DD90 /* MoveCommand.swift */,
+				9200A2FF2D6E3E9F0014DD90 /* BurnFuelCommand.swift */,
+				9200A2FD2D6E3C160014DD90 /* CheckFuelCommand.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
 		923E5B742D451FAF001E429A /* Architecture Homeworks */ = {
 			isa = PBXGroup;
 			children = (
+				9200A2F62D6E2A460014DD90 /* HW4 */,
 				927D27262D66272700D0C4BC /* HW3 */,
 				927216442D58F97D0023C216 /* HW2 */,
 				923E5B782D451FE3001E429A /* HW1 */,
@@ -125,6 +178,7 @@
 		923E5B792D451FFA001E429A /* Architecture HomeworksTests */ = {
 			isa = PBXGroup;
 			children = (
+				9200A2F72D6E2A4F0014DD90 /* HW4 */,
 				927D27272D66273300D0C4BC /* HW3 */,
 				927216452D58F9860023C216 /* HW2 */,
 				923E5B7D2D452011001E429A /* HW1 */,
@@ -321,24 +375,33 @@
 			files = (
 				927216492D5916C10023C216 /* MovingObject.swift in Sources */,
 				92AF70D72D69D8B6006A3547 /* RepeatTwiceCommand.swift in Sources */,
+				9200A3002D6E3EA60014DD90 /* BurnFuelCommand.swift in Sources */,
+				9200A2FB2D6E3BA30014DD90 /* FuelableObject.swift in Sources */,
+				9200A2F92D6E357B0014DD90 /* MacroCommand.swift in Sources */,
 				92AF70DE2D69DB4A006A3547 /* Log.swift in Sources */,
 				927D27322D6632B800D0C4BC /* WriteToLogCommand.swift in Sources */,
 				927D272F2D662B6900D0C4BC /* ExceptionHandler.swift in Sources */,
+				9200A30C2D6E42610014DD90 /* UniversalObject.swift in Sources */,
 				9272164C2D5917740023C216 /* Rotate.swift in Sources */,
 				927216472D5903520023C216 /* Move.swift in Sources */,
 				923E5B772D451FC8001E429A /* QuadraticEquationSolver.swift in Sources */,
 				927D27362D66523100D0C4BC /* AddToQueueCommand.swift in Sources */,
 				923E5B682D451EC4001E429A /* AppDelegate.swift in Sources */,
+				9200A3022D6E3F140014DD90 /* MoveCommand.swift in Sources */,
+				9200A2FE2D6E3C180014DD90 /* CheckFuelCommand.swift in Sources */,
 				927D272B2D66291800D0C4BC /* CommandProtocol.swift in Sources */,
 				928D47882D68D1930024052E /* ErrorCommand.swift in Sources */,
 				9272164E2D59182F0023C216 /* RotatableObject.swift in Sources */,
+				9200A3062D6E3F840014DD90 /* ChangeVelocityCommand.swift in Sources */,
 				927D27292D66288400D0C4BC /* Loop.swift in Sources */,
 				92AF70DB2D69DA4B006A3547 /* EmptyCommand.swift in Sources */,
 				923E5B692D451EC4001E429A /* SceneDelegate.swift in Sources */,
+				9200A30A2D6E41920014DD90 /* MacroCommands.swift in Sources */,
 				927D27382D6654CC00D0C4BC /* CommandsQueue.swift in Sources */,
 				923E5B6A2D451EC4001E429A /* ViewController.swift in Sources */,
 				927D273A2D66588E00D0C4BC /* RepeatOnceCommand.swift in Sources */,
 				927D27342D6650F000D0C4BC /* ExceptionRegisterer.swift in Sources */,
+				9200A3082D6E40A00014DD90 /* CommandError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				927216522D591B7C0023C216 /* MovingObjectMock.swift in Sources */,
+				9200A30E2D6E4D680014DD90 /* MacroCommandsTests.swift in Sources */,
 				927216502D591A0A0023C216 /* MoveTests.swift in Sources */,
 				923E5B7C2D452002001E429A /* QuadraticEquationSolverTests.swift in Sources */,
 				92AF70D92D69D9B1006A3547 /* CommandsTests.swift in Sources */,
