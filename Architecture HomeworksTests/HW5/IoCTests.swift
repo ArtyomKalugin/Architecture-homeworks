@@ -18,7 +18,7 @@ final class IoCTests: XCTestCase {
         try super.tearDownWithError()
         
         let scope: ScopeStorage = try IoC.shared.resolve(scope: "Scope.Current", args: [])
-        scope.storage.removeAll()
+        scope.storage["MockClass"] = nil
     }
     
     // MARK: - Tests
