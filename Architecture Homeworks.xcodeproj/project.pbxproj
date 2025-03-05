@@ -25,6 +25,10 @@
 		923E5B6A2D451EC4001E429A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B602D451EC4001E429A /* ViewController.swift */; };
 		923E5B772D451FC8001E429A /* QuadraticEquationSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B752D451FC8001E429A /* QuadraticEquationSolver.swift */; };
 		923E5B7C2D452002001E429A /* QuadraticEquationSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */; };
+		9248B02F2D73106B0081BA5F /* IoC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248B02E2D73104E0081BA5F /* IoC.swift */; };
+		9248B0322D7375500081BA5F /* RegisterCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248B0312D73754B0081BA5F /* RegisterCommand.swift */; };
+		9248B0342D74A3D60081BA5F /* ScopeStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248B0332D74A3D20081BA5F /* ScopeStorage.swift */; };
+		9248B0362D74A5D50081BA5F /* IoCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248B0352D74A5CF0081BA5F /* IoCTests.swift */; };
 		927216472D5903520023C216 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927216462D59034D0023C216 /* Move.swift */; };
 		927216492D5916C10023C216 /* MovingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927216482D5916BE0023C216 /* MovingObject.swift */; };
 		9272164C2D5917740023C216 /* Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272164B2D5917720023C216 /* Rotate.swift */; };
@@ -76,6 +80,10 @@
 		923E5B622D451EC4001E429A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		923E5B752D451FC8001E429A /* QuadraticEquationSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolver.swift; sourceTree = "<group>"; };
 		923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolverTests.swift; sourceTree = "<group>"; };
+		9248B02E2D73104E0081BA5F /* IoC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoC.swift; sourceTree = "<group>"; };
+		9248B0312D73754B0081BA5F /* RegisterCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCommand.swift; sourceTree = "<group>"; };
+		9248B0332D74A3D20081BA5F /* ScopeStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeStorage.swift; sourceTree = "<group>"; };
+		9248B0352D74A5CF0081BA5F /* IoCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoCTests.swift; sourceTree = "<group>"; };
 		927216462D59034D0023C216 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		927216482D5916BE0023C216 /* MovingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingObject.swift; sourceTree = "<group>"; };
 		9272164B2D5917720023C216 /* Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotate.swift; sourceTree = "<group>"; };
@@ -152,6 +160,7 @@
 		923E5B742D451FAF001E429A /* Architecture Homeworks */ = {
 			isa = PBXGroup;
 			children = (
+				9248B02B2D730FDA0081BA5F /* HW5 */,
 				9200A2F62D6E2A460014DD90 /* HW4 */,
 				927D27262D66272700D0C4BC /* HW3 */,
 				927216442D58F97D0023C216 /* HW2 */,
@@ -178,6 +187,7 @@
 		923E5B792D451FFA001E429A /* Architecture HomeworksTests */ = {
 			isa = PBXGroup;
 			children = (
+				9248B02C2D730FDE0081BA5F /* HW5 */,
 				9200A2F72D6E2A4F0014DD90 /* HW4 */,
 				927D27272D66273300D0C4BC /* HW3 */,
 				927216452D58F9860023C216 /* HW2 */,
@@ -192,6 +202,32 @@
 				923E5B7A2D452002001E429A /* QuadraticEquationSolverTests.swift */,
 			);
 			path = HW1;
+			sourceTree = "<group>";
+		};
+		9248B02B2D730FDA0081BA5F /* HW5 */ = {
+			isa = PBXGroup;
+			children = (
+				9248B0302D7375430081BA5F /* Commands */,
+				9248B0332D74A3D20081BA5F /* ScopeStorage.swift */,
+				9248B02E2D73104E0081BA5F /* IoC.swift */,
+			);
+			path = HW5;
+			sourceTree = "<group>";
+		};
+		9248B02C2D730FDE0081BA5F /* HW5 */ = {
+			isa = PBXGroup;
+			children = (
+				9248B0352D74A5CF0081BA5F /* IoCTests.swift */,
+			);
+			path = HW5;
+			sourceTree = "<group>";
+		};
+		9248B0302D7375430081BA5F /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				9248B0312D73754B0081BA5F /* RegisterCommand.swift */,
+			);
+			path = Commands;
 			sourceTree = "<group>";
 		};
 		927216442D58F97D0023C216 /* HW2 */ = {
@@ -373,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9248B0322D7375500081BA5F /* RegisterCommand.swift in Sources */,
 				927216492D5916C10023C216 /* MovingObject.swift in Sources */,
 				92AF70D72D69D8B6006A3547 /* RepeatTwiceCommand.swift in Sources */,
 				9200A3002D6E3EA60014DD90 /* BurnFuelCommand.swift in Sources */,
@@ -400,6 +437,8 @@
 				927D27382D6654CC00D0C4BC /* CommandsQueue.swift in Sources */,
 				923E5B6A2D451EC4001E429A /* ViewController.swift in Sources */,
 				927D273A2D66588E00D0C4BC /* RepeatOnceCommand.swift in Sources */,
+				9248B0342D74A3D60081BA5F /* ScopeStorage.swift in Sources */,
+				9248B02F2D73106B0081BA5F /* IoC.swift in Sources */,
 				927D27342D6650F000D0C4BC /* ExceptionRegisterer.swift in Sources */,
 				9200A3082D6E40A00014DD90 /* CommandError.swift in Sources */,
 			);
@@ -414,6 +453,7 @@
 				927216502D591A0A0023C216 /* MoveTests.swift in Sources */,
 				923E5B7C2D452002001E429A /* QuadraticEquationSolverTests.swift in Sources */,
 				92AF70D92D69D9B1006A3547 /* CommandsTests.swift in Sources */,
+				9248B0362D74A5D50081BA5F /* IoCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
