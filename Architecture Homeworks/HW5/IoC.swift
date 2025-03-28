@@ -37,7 +37,7 @@ final class IoC {
     
     // MARK: - Methods
     
-    func resolve<T: AnyObject>(
+    func resolve<T>(
         scope: String = "Scope.Current",
         dependency: String? = nil,
         args: [Any]

@@ -21,6 +21,9 @@
 		9217C51F2D8B28CB0010CBEF /* HandleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217C51E2D8B28C60010CBEF /* HandleCommand.swift */; };
 		9217C5212D8B2BF70010CBEF /* HardStopCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217C5202D8B2BF20010CBEF /* HardStopCommand.swift */; };
 		9217C5232D8B31380010CBEF /* SoftStopCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217C5222D8B31330010CBEF /* SoftStopCommand.swift */; };
+		922336CB2D95C523004E8CBD /* GameServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922336CA2D95C520004E8CBD /* GameServer.swift */; };
+		922336CD2D95C57A004E8CBD /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922336CC2D95C578004E8CBD /* MessageModel.swift */; };
+		922336CF2D95CB40004E8CBD /* InterpretCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922336CE2D95CB3B004E8CBD /* InterpretCommand.swift */; };
 		923E5B632D451EC4001E429A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923E5B5B2D451EC4001E429A /* Assets.xcassets */; };
 		923E5B652D451EC4001E429A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923E5B5D2D451EC4001E429A /* LaunchScreen.storyboard */; };
 		923E5B662D451EC4001E429A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923E5B5E2D451EC4001E429A /* Main.storyboard */; };
@@ -52,6 +55,7 @@
 		92AF70D92D69D9B1006A3547 /* CommandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF70D82D69D9AD006A3547 /* CommandsTests.swift */; };
 		92AF70DB2D69DA4B006A3547 /* EmptyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF70DA2D69DA41006A3547 /* EmptyCommand.swift */; };
 		92AF70DE2D69DB4A006A3547 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF70DD2D69DB49006A3547 /* Log.swift */; };
+		92B9AE022D96F90F008F051B /* AddToEventLoopCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9AE012D96F90A008F051B /* AddToEventLoopCommand.swift */; };
 		92FDB7882D8C83A20042B2E3 /* EventLoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FDB7872D8C839E0042B2E3 /* EventLoopTests.swift */; };
 		92FDB78A2D8C87D20042B2E3 /* UniversalCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FDB7892D8C87CD0042B2E3 /* UniversalCommand.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +85,9 @@
 		9217C51E2D8B28C60010CBEF /* HandleCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleCommand.swift; sourceTree = "<group>"; };
 		9217C5202D8B2BF20010CBEF /* HardStopCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardStopCommand.swift; sourceTree = "<group>"; };
 		9217C5222D8B31330010CBEF /* SoftStopCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftStopCommand.swift; sourceTree = "<group>"; };
+		922336CA2D95C520004E8CBD /* GameServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameServer.swift; sourceTree = "<group>"; };
+		922336CC2D95C578004E8CBD /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		922336CE2D95CB3B004E8CBD /* InterpretCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpretCommand.swift; sourceTree = "<group>"; };
 		923E5B5A2D451EC4001E429A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923E5B5B2D451EC4001E429A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923E5B5C2D451EC4001E429A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,6 +122,7 @@
 		92AF70D82D69D9AD006A3547 /* CommandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandsTests.swift; sourceTree = "<group>"; };
 		92AF70DA2D69DA41006A3547 /* EmptyCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCommand.swift; sourceTree = "<group>"; };
 		92AF70DD2D69DB49006A3547 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		92B9AE012D96F90A008F051B /* AddToEventLoopCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToEventLoopCommand.swift; sourceTree = "<group>"; };
 		92FDB7872D8C839E0042B2E3 /* EventLoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLoopTests.swift; sourceTree = "<group>"; };
 		92FDB7892D8C87CD0042B2E3 /* UniversalCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,9 +205,20 @@
 			path = Commands;
 			sourceTree = "<group>";
 		};
+		922336C82D95C512004E8CBD /* HW8 */ = {
+			isa = PBXGroup;
+			children = (
+				92B9AE002D96F902008F051B /* Commands */,
+				922336CC2D95C578004E8CBD /* MessageModel.swift */,
+				922336CA2D95C520004E8CBD /* GameServer.swift */,
+			);
+			path = HW8;
+			sourceTree = "<group>";
+		};
 		923E5B742D451FAF001E429A /* Architecture Homeworks */ = {
 			isa = PBXGroup;
 			children = (
+				922336C82D95C512004E8CBD /* HW8 */,
 				9217C5192D8B26700010CBEF /* HW7 */,
 				9248B02B2D730FDA0081BA5F /* HW5 */,
 				9200A2F62D6E2A460014DD90 /* HW4 */,
@@ -345,6 +364,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		92B9AE002D96F902008F051B /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				92B9AE012D96F90A008F051B /* AddToEventLoopCommand.swift */,
+				922336CE2D95CB3B004E8CBD /* InterpretCommand.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -465,12 +493,15 @@
 				9200A30C2D6E42610014DD90 /* UniversalObject.swift in Sources */,
 				9272164C2D5917740023C216 /* Rotate.swift in Sources */,
 				927216472D5903520023C216 /* Move.swift in Sources */,
+				92B9AE022D96F90F008F051B /* AddToEventLoopCommand.swift in Sources */,
 				923E5B772D451FC8001E429A /* QuadraticEquationSolver.swift in Sources */,
 				927D27362D66523100D0C4BC /* AddToQueueCommand.swift in Sources */,
 				923E5B682D451EC4001E429A /* AppDelegate.swift in Sources */,
 				9200A3022D6E3F140014DD90 /* MoveCommand.swift in Sources */,
 				9200A2FE2D6E3C180014DD90 /* CheckFuelCommand.swift in Sources */,
+				922336CD2D95C57A004E8CBD /* MessageModel.swift in Sources */,
 				927D272B2D66291800D0C4BC /* CommandProtocol.swift in Sources */,
+				922336CB2D95C523004E8CBD /* GameServer.swift in Sources */,
 				928D47882D68D1930024052E /* ErrorCommand.swift in Sources */,
 				9272164E2D59182F0023C216 /* RotatableObject.swift in Sources */,
 				9200A3062D6E3F840014DD90 /* ChangeVelocityCommand.swift in Sources */,
@@ -486,6 +517,7 @@
 				9248B0342D74A3D60081BA5F /* ScopeStorage.swift in Sources */,
 				9248B02F2D73106B0081BA5F /* IoC.swift in Sources */,
 				9217C5212D8B2BF70010CBEF /* HardStopCommand.swift in Sources */,
+				922336CF2D95CB40004E8CBD /* InterpretCommand.swift in Sources */,
 				927D27342D6650F000D0C4BC /* ExceptionRegisterer.swift in Sources */,
 				9200A3082D6E40A00014DD90 /* CommandError.swift in Sources */,
 			);
