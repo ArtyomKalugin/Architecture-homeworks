@@ -17,6 +17,9 @@
 		9200A30A2D6E41920014DD90 /* MacroCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A3092D6E418B0014DD90 /* MacroCommands.swift */; };
 		9200A30C2D6E42610014DD90 /* UniversalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A30B2D6E425C0014DD90 /* UniversalObject.swift */; };
 		9200A30E2D6E4D680014DD90 /* MacroCommandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200A30D2D6E4D550014DD90 /* MacroCommandsTests.swift */; };
+		9201B5702DA839BA00BDEA52 /* Микросервисы.png in Resources */ = {isa = PBXBuildFile; fileRef = 9201B56F2DA839BA00BDEA52 /* Микросервисы.png */; };
+		9201B5722DA839D500BDEA52 /* Эндпоинты.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9201B5712DA839C300BDEA52 /* Эндпоинты.txt */; };
+		9201B5742DA83E3C00BDEA52 /* Описание.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9201B5732DA83E3600BDEA52 /* Описание.txt */; };
 		9217C51C2D8B273F0010CBEF /* EventLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217C51B2D8B273B0010CBEF /* EventLoop.swift */; };
 		9217C51F2D8B28CB0010CBEF /* HandleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217C51E2D8B28C60010CBEF /* HandleCommand.swift */; };
 		9217C5212D8B2BF70010CBEF /* HardStopCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217C5202D8B2BF20010CBEF /* HardStopCommand.swift */; };
@@ -81,6 +84,9 @@
 		9200A3092D6E418B0014DD90 /* MacroCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroCommands.swift; sourceTree = "<group>"; };
 		9200A30B2D6E425C0014DD90 /* UniversalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalObject.swift; sourceTree = "<group>"; };
 		9200A30D2D6E4D550014DD90 /* MacroCommandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroCommandsTests.swift; sourceTree = "<group>"; };
+		9201B56F2DA839BA00BDEA52 /* Микросервисы.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Микросервисы.png"; sourceTree = "<group>"; };
+		9201B5712DA839C300BDEA52 /* Эндпоинты.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Эндпоинты.txt"; sourceTree = "<group>"; };
+		9201B5732DA83E3600BDEA52 /* Описание.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Описание.txt"; sourceTree = "<group>"; };
 		9217C51B2D8B273B0010CBEF /* EventLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLoop.swift; sourceTree = "<group>"; };
 		9217C51E2D8B28C60010CBEF /* HandleCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleCommand.swift; sourceTree = "<group>"; };
 		9217C5202D8B2BF20010CBEF /* HardStopCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardStopCommand.swift; sourceTree = "<group>"; };
@@ -177,6 +183,16 @@
 			path = Commands;
 			sourceTree = "<group>";
 		};
+		9201B56E2DA8399700BDEA52 /* HW9 */ = {
+			isa = PBXGroup;
+			children = (
+				9201B5732DA83E3600BDEA52 /* Описание.txt */,
+				9201B5712DA839C300BDEA52 /* Эндпоинты.txt */,
+				9201B56F2DA839BA00BDEA52 /* Микросервисы.png */,
+			);
+			path = HW9;
+			sourceTree = "<group>";
+		};
 		9217C5192D8B26700010CBEF /* HW7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +234,7 @@
 		923E5B742D451FAF001E429A /* Architecture Homeworks */ = {
 			isa = PBXGroup;
 			children = (
+				9201B56E2DA8399700BDEA52 /* HW9 */,
 				922336C82D95C512004E8CBD /* HW8 */,
 				9217C5192D8B26700010CBEF /* HW7 */,
 				9248B02B2D730FDA0081BA5F /* HW5 */,
@@ -460,8 +477,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				923E5B632D451EC4001E429A /* Assets.xcassets in Resources */,
+				9201B5722DA839D500BDEA52 /* Эндпоинты.txt in Resources */,
 				923E5B652D451EC4001E429A /* LaunchScreen.storyboard in Resources */,
 				923E5B662D451EC4001E429A /* Main.storyboard in Resources */,
+				9201B5742DA83E3C00BDEA52 /* Описание.txt in Resources */,
+				9201B5702DA839BA00BDEA52 /* Микросервисы.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
